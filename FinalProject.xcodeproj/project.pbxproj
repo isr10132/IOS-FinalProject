@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57D1222620E2532B00251B1F /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1222520E2532B00251B1F /* FoodTableViewCell.swift */; };
+		57D1222C20E2677D00251B1F /* EditFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1222B20E2677D00251B1F /* EditFoodTableViewController.swift */; };
+		57D1222E20E27B8100251B1F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D1222D20E27B8100251B1F /* MapViewController.swift */; };
 		591CB03220DE4EC400B62B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591CB03120DE4EC400B62B46 /* AppDelegate.swift */; };
 		591CB03420DE4EC400B62B46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591CB03320DE4EC400B62B46 /* ViewController.swift */; };
 		591CB03720DE4EC400B62B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 591CB03520DE4EC400B62B46 /* Main.storyboard */; };
@@ -15,7 +18,6 @@
 		591CB04720DE4EC600B62B46 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591CB04620DE4EC600B62B46 /* FinalProjectTests.swift */; };
 		591CB05220DE4EC600B62B46 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591CB05120DE4EC600B62B46 /* FinalProjectUITests.swift */; };
 		594A05DA20DE67CF00AEE33C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594A05D920DE67CF00AEE33C /* HomeTableViewController.swift */; };
-		5963FD2F20E1E774002FBEEF /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963FD2E20E1E774002FBEEF /* FoodViewController.swift */; };
 		5963FD3120E1E9BA002FBEEF /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963FD3020E1E9BA002FBEEF /* Food.swift */; };
 		689A7CE4969891453B1BE603 /* Pods_FinalProject_FinalProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8CE647F3D3A951D422AA52 /* Pods_FinalProject_FinalProjectTests.framework */; };
 		735B426634DADD94D4A7E486 /* Pods_FinalProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BFA069FABDF9D38180C72A /* Pods_FinalProjectUITests.framework */; };
@@ -44,6 +46,9 @@
 		2E5B752A45A4C39D3C74B181 /* Pods-FinalProject-FinalProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject-FinalProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject-FinalProjectTests/Pods-FinalProject-FinalProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49BFA069FABDF9D38180C72A /* Pods_FinalProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		532974FBA0BCFE3402C7BB2C /* Pods_FinalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D1222520E2532B00251B1F /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		57D1222B20E2677D00251B1F /* EditFoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodTableViewController.swift; sourceTree = "<group>"; };
+		57D1222D20E27B8100251B1F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		591CB02E20DE4EC400B62B46 /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		591CB03120DE4EC400B62B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		591CB03320DE4EC400B62B46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +64,6 @@
 		591CB05320DE4EC600B62B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594A05D920DE67CF00AEE33C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		595B8FBF8151B3B79FEBD6DC /* Pods-FinalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5963FD2E20E1E774002FBEEF /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		5963FD3020E1E9BA002FBEEF /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		975D4E0D70D2D811515E766A /* Pods-FinalProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProjectUITests/Pods-FinalProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADAEF3F93B5331C40F6F63C1 /* Pods-FinalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalProject/Pods-FinalProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,13 +149,15 @@
 			children = (
 				591CB03120DE4EC400B62B46 /* AppDelegate.swift */,
 				591CB03320DE4EC400B62B46 /* ViewController.swift */,
-				5963FD2E20E1E774002FBEEF /* FoodViewController.swift */,
 				591CB03520DE4EC400B62B46 /* Main.storyboard */,
+				57D1222D20E27B8100251B1F /* MapViewController.swift */,
+				57D1222520E2532B00251B1F /* FoodTableViewCell.swift */,
 				5963FD3020E1E9BA002FBEEF /* Food.swift */,
 				594A05D920DE67CF00AEE33C /* HomeTableViewController.swift */,
 				591CB03820DE4EC500B62B46 /* Assets.xcassets */,
 				591CB03A20DE4EC500B62B46 /* LaunchScreen.storyboard */,
 				591CB03D20DE4EC600B62B46 /* Info.plist */,
+				57D1222B20E2677D00251B1F /* EditFoodTableViewController.swift */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -412,10 +418,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				594A05DA20DE67CF00AEE33C /* HomeTableViewController.swift in Sources */,
-				5963FD2F20E1E774002FBEEF /* FoodViewController.swift in Sources */,
 				5963FD3120E1E9BA002FBEEF /* Food.swift in Sources */,
+				57D1222C20E2677D00251B1F /* EditFoodTableViewController.swift in Sources */,
 				591CB03420DE4EC400B62B46 /* ViewController.swift in Sources */,
 				591CB03220DE4EC400B62B46 /* AppDelegate.swift in Sources */,
+				57D1222620E2532B00251B1F /* FoodTableViewCell.swift in Sources */,
+				57D1222E20E27B8100251B1F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

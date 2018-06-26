@@ -11,9 +11,13 @@ import Foundation
 struct Food: Codable {
     var store: String
     var address: String
-    var name: String
+    var food: String
+    var price: Int
     var description: String
     var star: Int
+    var photo: String
+    var latitude: String
+    var longitude: String
     
     static func readLoversFromFile() -> [Food]? {
         let propertyDecoder = PropertyListDecoder()
