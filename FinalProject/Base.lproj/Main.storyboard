@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Wdo-87-dXk">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="77" id="Wdo-87-dXk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="77"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Wdo-87-dXk" id="oki-3Z-pry">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="76.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -45,10 +45,10 @@
             </objects>
             <point key="canvasLocation" x="199.19999999999999" y="118.29085457271366"/>
         </scene>
-        <!--Title-->
+        <!--食物-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FoodViewController" customModule="FinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -132,24 +132,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="選擇地點"/>
                                 <connections>
-                                    <action selector="pickPlace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4jb-Wc-Q3j"/>
+                                    <action selector="pickPlace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vSu-sU-4mU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="bVz-Pf-YiI">
+                    <navigationItem key="navigationItem" title="食物" id="bVz-Pf-YiI">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="done" id="ljn-ne-3uS">
                             <connections>
-                                <action selector="doneButtonPress:" destination="BYZ-38-t0r" id="bmk-fQ-0Oe"/>
+                                <action selector="doneButtonPress:" destination="BYZ-38-t0r" id="w0v-A2-S3V"/>
                                 <segue destination="Jil-lg-XXc" kind="unwind" unwindAction="goBackToTableWithSegue:" id="RRV-DH-dzu"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="addressLabel" destination="8Ao-eV-5ST" id="f5Z-le-EGU"/>
-                        <outlet property="nameLabel" destination="NeQ-z8-Tdn" id="z4B-Hp-w93"/>
+                        <outlet property="addressLabel" destination="8Ao-eV-5ST" id="jWK-Pu-Fra"/>
+                        <outlet property="descriptionTextField" destination="t7g-CC-S1p" id="f8P-0R-XCM"/>
+                        <outlet property="foodTextField" destination="KM2-qF-aQk" id="1qZ-el-Utm"/>
+                        <outlet property="score" destination="1ZX-j6-isO" id="7VW-Of-KdD"/>
+                        <outlet property="storeLabel" destination="NeQ-z8-Tdn" id="bqe-wq-n6d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
