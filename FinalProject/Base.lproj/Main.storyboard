@@ -282,6 +282,10 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.8696035920183226" green="0.93464467005076146" blue="0.66924701986238155" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="hP6-uf-kLb" appends="YES" id="aoR-Hr-mQs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -311,6 +315,11 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aZI-wf-Gie" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="kY8-of-YXS" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="hP6-uf-kLb">
+                    <connections>
+                        <action selector="tapAction:" destination="mwB-T3-Fh3" id="xED-YS-ngs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2820" y="117.39130434782609"/>
         </scene>
@@ -339,6 +348,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="1mm-yy-NLC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sko-0a-Oah">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

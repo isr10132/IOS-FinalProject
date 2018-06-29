@@ -160,6 +160,9 @@ class EditFoodTableViewController: UITableViewController, UIImagePickerControlle
 //        print("sent")
     }
 
+    @IBAction func tapAction(_ sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
